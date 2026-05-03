@@ -48,8 +48,8 @@ export default function UploadSamples({ onComplete }: UploadSamplesProps) {
 
       const style = await analyzeHandwriting(base64Images);
       onComplete(style);
-    } catch (err) {
-      setError("Failed to analyze handwriting. Please try again.");
+    } catch (err: any) {
+      setError(err.message || "Failed to analyze handwriting. Please try again.");
       console.error(err);
     } finally {
       setIsAnalyzing(false);
