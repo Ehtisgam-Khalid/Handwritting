@@ -1,0 +1,6 @@
+{
+  "name": "ScribeAI: Handwriting Stylist",
+  "description": "An AI-powered handwriting generator that analyzes your writing style and replicates it for custom text notes and PDF exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
